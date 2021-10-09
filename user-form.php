@@ -427,6 +427,6 @@ function saveUserdata() {
 }
 $('#countryCode').click(function() {
     let code = $('#countryCode').val()
-    $('#phonenumber').val('+91' + code);
+    $('#phonenumber').val('+' + code);
 });
 </script>
